@@ -3,6 +3,7 @@ import { Vector3, Color3 } from '@babylonjs/core';
 import { Scene, Engine, Model} from 'react-babylonjs';
 import { ActionManager, SetValueAction } from '@babylonjs/core/Actions';
 import ScaledModelWithProgress from './ScaledModelWithProgress'
+import '@babylonjs/loaders'
 
 interface INotificationBoxProps {
 
